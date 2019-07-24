@@ -1,0 +1,38 @@
+<include file="Public:header" />
+<include file="Public:nav" />
+
+<div class="table_list">
+<table width="100%">
+	<thead>
+		<tr height="30">
+			<td><label class="checkbox"> <input type="checkbox" /></label></td>
+			<td>名称</td>
+			<td>提交时间</td>
+<!-- 			<td>审核状态</td> -->
+<!-- 			<td>审核时间</td> -->
+			<td>操作</td>
+		</tr>
+	</thead>
+	<tbody>
+	<volist name="lists" id="val">
+		<tr height="30">
+			<td><input type="checkbox" />{$val.id}</td>
+			<td>{$val.pro_name}</td>
+		
+			<td>{$val.pro_time|date='Y-m-d H:i',###}</td>
+		
+			<td>
+				<a href="{:U('see',"id=$val[id]")}">查看</a> | 
+<!-- 				<a href="{:U('edit',"id=$val[id]")}">修改</a> | -->
+				<a href="javascript:" onclick="return mydelete('{:U('delete',"id=$val[id]")}');">删除</a>
+			</td>
+		</tr>
+	</volist>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="8" class="pages">{$pages}</td>
+		</tr>
+	</tfoot>
+</table>
+</div>

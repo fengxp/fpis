@@ -1,0 +1,81 @@
+[ 2016-06-15T10:21:00+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Login/check_code.html?code=wqkh
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T10:21:11+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-15T10:21:36+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-15T10:21:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/lists
+ERR: 模板不存在:./App/Admin/View/Program/lists.html
+
+[ 2016-06-15T10:27:01+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-15T10:27:38+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E4%B8%8D%E7%AC%A6%EF%BC%81
+ERR: 非法操作:上传文件大小不符！
+
+[ 2016-06-15T10:27:43+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E4%B8%8D%E7%AC%A6%EF%BC%81
+ERR: 非法操作:上传文件大小不符！
+
+[ 2016-06-15T10:27:48+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E4%B8%8D%E7%AC%A6%EF%BC%81
+ERR: 非法操作:上传文件大小不符！
+
+[ 2016-06-15T10:28:07+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/lists
+ERR: 模板不存在:./App/Admin/View/Program/lists.html
+
+[ 2016-06-15T11:00:13+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Login/check_code.html?code=elfr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T11:01:44+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Login/check_code.html?code=bgxx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-15T11:28:56+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/lists.html
+ERR: 模板不存在:./App/Admin/View/Program/lists.html
+
+[ 2016-06-15T11:37:09+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/lists.html
+ERR: 模板不存在:./App/Admin/View/Program/lists.html
+
+[ 2016-06-15T11:39:21+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-15T11:41:49+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/delete/id/2.html
+ERR: 非法操作:delete
+
+[ 2016-06-15T14:54:09+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/group.html
+ERR: 非法操作:group
+
+[ 2016-06-15T14:55:03+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/see/id/3.html
+ERR: 模板不存在:./App/Admin/View/Program/see.html
+
+[ 2016-06-15T15:56:38+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/see/id/3.html
+ERR: 1054:Champ '64' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `op_media` WHERE `id` IN ('64','63') ORDER BY 64,63 LIMIT 1  
+
+[ 2016-06-15T15:57:28+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/see/id/3.html
+ERR: 1054:Champ '64' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `op_media` WHERE `id` IN ('64','63') ORDER BY 64,63 
+
+[ 2016-06-15T16:31:50+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/see.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `op_media` WHERE ( id= ) LIMIT 1  
+
+[ 2016-06-15T16:38:00+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/see.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `op_media` WHERE ( id= ) LIMIT 1  
+
+[ 2016-06-15T16:38:09+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/see.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `op_media` WHERE ( id= ) LIMIT 1  
+
+[ 2016-06-15T16:41:00+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/see/id/%24mp%5B%22id%22%5D.html
+ERR: 1064:Erreur de syntaxe près de '[&quot;id&quot;] ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `op_media` WHERE ( id=$mp[&quot;id&quot;] ) LIMIT 1  
+

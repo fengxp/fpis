@@ -1,0 +1,15 @@
+[ 2016-10-20T16:04:11+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=2k5h
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-20T17:35:03+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=pvc3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-20T17:35:11+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=8jbe
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+

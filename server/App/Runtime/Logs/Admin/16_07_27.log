@@ -1,0 +1,21 @@
+[ 2016-07-27T17:38:44+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=cll6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-27T17:38:45+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=cllg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-27T17:38:53+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=n4ej
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-27T17:39:03+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-27T17:42:14+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+

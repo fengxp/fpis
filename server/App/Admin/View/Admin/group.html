@@ -1,0 +1,32 @@
+﻿<include file='Public:header' />
+<include file='Public:nav' />
+<div class="table_list">
+<table width="100%">
+	<thead>
+		<tr height="30">
+			<td><label class="checkbox"> <input type="checkbox" name="" />ID</label></th>
+			<td>角色名称</th>
+			<td>状态</th>
+			<td>管理操作</th>
+		</tr>
+	</thead>
+	<tbody>
+	<volist name="list" id="val">
+		<tr height="30">
+			<td><input type="checkbox" />{$val.id}</td>
+			<td>{$val.title}</td>
+			<td>{$val.status}</td>
+			<td><a href="{:U('group_edit',"id=$val[id]")}">编辑</a> | 
+			<a href="javascript:" onclick="return mydelete('{:U('group_delete',"id=$val[id]")}');">删除</a>
+		</tr>
+	</volist>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="8" class="pages">{$pages}</td>
+		</tr>
+	</tfoot>
+</table>
+</div>
+</body>
+</html>

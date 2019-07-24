@@ -1,0 +1,5 @@
+[ 2017-03-14T17:06:25+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=ydb5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+

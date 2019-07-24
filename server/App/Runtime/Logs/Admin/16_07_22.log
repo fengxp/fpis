@@ -1,0 +1,280 @@
+[ 2016-07-22T09:46:49+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=he3D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-22T09:46:50+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=he3D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-07-22T09:46:56+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=fswn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-22T09:47:14+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T09:47:18+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-07-22T09:47:32+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-07-22T09:48:12+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T09:49:27+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T09:50:26+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T09:51:31+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T09:52:07+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T09:52:22+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T09:53:07+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T09:55:03+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T09:55:28+08:00 ] 127.0.0.1 /lms/server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-07-22T09:55:42+08:00 ] 127.0.0.1 /lms/server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:07:34+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-07-22T10:07:45+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:08:15+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0025s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0005s ]
+
+[ 2016-07-22T10:09:12+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-07-22T10:09:22+08:00 ] 127.0.0.1 /lms/server/Info/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-07-22T10:10:19+08:00 ] 127.0.0.1 /lms/server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:10:31+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-07-22T10:10:54+08:00 ] 127.0.0.1 /lms/server/Info/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:11:15+08:00 ] 127.0.0.1 /lms/server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:12:25+08:00 ] 127.0.0.1 /lms/server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-07-22T10:49:20+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0005s ]
+
+[ 2016-07-22T10:49:24+08:00 ] 127.0.0.1 /lms/server/Publish/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0025s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0005s ]
+
+[ 2016-07-22T10:49:31+08:00 ] 127.0.0.1 /lms/server/Info/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0025s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0025s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-07-22T10:51:59+08:00 ] 127.0.0.1 /lms/server/Program/imgList.html
+ERR: 1054:Champ 'mp4' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `op_media` WHERE ( type=mp4 ) ORDER BY id desc LIMIT 0,10  
+
+[ 2016-07-22T10:55:21+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-07-22T10:55:29+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-07-22T11:02:30+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
+[ 2016-07-22T11:07:17+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0025s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-07-22T17:01:04+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+

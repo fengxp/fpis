@@ -1,0 +1,47 @@
+<include file='Public:header' />
+<include file='Public:nav' />
+<!-- <form action="" method="post"> -->
+<div class="table_full">
+<table width='100%'>
+	<tr>
+		<th width="20%" >文件名称:</th>
+		<td width="80%">{$val.file_name}</td>
+		</td>
+	</tr>
+	<tr>
+		<th width="20%">类型</th>
+		<td width="80%">{$val.type}</td>
+	</tr>
+	<tr>
+		<th width="20%">类别</th>
+		<td width="80%">{$val.attr|getMediaAttr}</td>
+	</tr>
+	<tr>
+		<th width="20%">大小：</th>
+		<td width="80%">{$val.size}</td>
+			
+		</td>
+	</tr>
+	<tr>
+		<th width="20%">提交时间：</th>
+		<td width="80%">{$val.sub_time|date='Y-m-d H:i',###} </td>
+	</tr>
+	<tr>
+		<th width="20%">存储名称：</th>
+		<td width="80%">{$val.temp_name}</td>
+	</tr>
+	<tr>
+		<th width="20%">预览：</th>
+		<td width="80%" >{$val.temp_name|preview_media}</td>
+		
+	</tr>
+	
+</table>
+
+</div>
+<div class="btn_wrap">
+  <div class="btn_wrap_pd">
+ 
+	<button type="button" class="btn btn-info" onclick="return window.history.go(-1)">返回</button>
+  </div>
+</div>

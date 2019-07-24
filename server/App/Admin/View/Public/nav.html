@@ -1,0 +1,29 @@
+<php>if($Think.ACTION_NAME == 'account'){</php>
+<div class="nav">
+	<div class="left">账号列表</div>
+	<div class="right"><a href="{:U('acc_add')}" class="button">增加账号</a></div>
+</div>
+<php>}elseif($Think.ACTION_NAME == 'node'){</php>
+<div class="nav">
+	<div class="left">节点列表</div>
+	<div class="right">
+		<a href="{:U('node_add')}"class="button">增加节点</a>&nbsp;&nbsp;
+		<a href="#" class="button" onclick="window.history.go(-1)">返回</a>
+	</div>
+</div>
+<php>}elseif($Think.ACTION_NAME == 'group'){</php>
+<div class="nav">
+	<div class="left">权限组管理</div>
+	<div class="right"><a href="{:U('group_add')}" class="button">增加权限组</a></div>
+	</div>
+<php>}elseif($Think.ACTION_NAME == 'acc_add'){</php>
+<div class="nav">
+	<div class="left">增加账号</div>
+	<div class="right"><a href="#" class="button" onclick="window.history.go(-1)">返回</a></div>
+</div>
+<php>}elseif($Think.ACTION_NAME == 'acc_edit'){</php>
+<div class="nav">
+	<div class="left">修改账号</div>
+	<div class="right"><a href="#" class="button" onclick="window.history.go(-1)">返回</a></div>
+</div>
+<php>}</php>

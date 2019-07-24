@@ -1,0 +1,55 @@
+[ 2016-11-18T10:00:27+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=cndg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-18T10:02:48+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0120s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0000s ]
+
+[ 2016-11-18T18:10:19+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=hqkw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-18T18:10:38+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0130s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-11-18T18:10:47+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-11-18T18:10:57+08:00 ] 127.0.0.1 /lms/server/Info/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0140s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-11-18T18:11:05+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+

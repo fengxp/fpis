@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" >
+    <title></title>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/4stationTime.js" type="text/javascript"></script>
+	<script src="js/broadcast.js" type="text/javascript"></script>
+	<script src="../conf/conf.js" type="text/javascript"></script>
+	<script src="js/ledText.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+    
+	<link href="css/public.css" rel="stylesheet" />
+    <link href="css/ats.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <!--滚动信息1-->
+    <div>
+		<div class="TimeArea">
+		<iframe id="sciframe" src="scrollEmg/scroll.html" width="100%" height="100%" frameborder="0" scrolling="no" seamless="seamless">
+        您的浏览器不支持iframe，请升级
+		</iframe>
+		</div>
+       <div class="color2 font5 marquee">
+			<marquee id="marquee" height="100%" width="100%" direction="up" scrollamount="4" SCROLLDELAY="100" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="marquee_text" ></span></marquee>
+	   </div>
+	</div>
+	<!--滚动信息结束-->
+	<!--中部显示区域-->
+	<div>
+	<!--ATS信息区-->
+		<div class="ats" id="ats">
+		<div id="line"></div>
+		<!--安和桥北方向-->
+		<div class="color1 font4 destination-lable">公益西桥方向
+			
+			<div class="color2 font3 destination-text " >本次列车到站时间 <span class="arrival arrival-time font4"> 5</span> 分钟</div>
+		
+			<div class="color2 font3  destination-text2">下次列车到站时间 <span class="arrival arrival-time2 font4"> 8</span> 分钟</div>
+		</div>
+		<!--公益西桥方向-->
+		<div class="color1 font4 destination-lable2">安和桥北方向
+			
+			<div class="color2 font3 destination-text" >本次列车到站时间 <span class="arrival arrival-time3 font4"> 4</span> 分钟</div>
+		
+			<div class="color2 font3  destination-text2">下次列车到站时间 <span class="arrival arrival-time4 font4"> 9</span> 分钟</div>
+		</div>
+		<!--限流-->
+<!-- 		<div id="limit"></div> -->
+		<div class="color2 font4" id="walkTime">
+			<div class="wt1 font5">预计</div>
+			<div class="wt2">步行至站台时间</div>
+			<div class="wt3 font5">3</div>
+			<div class="wt4">分钟</div>
+		</div>
+		
+		</div>
+	<!--实时拥挤信息区-->
+		<div id="tab">
+			<img src="" id="tab_img"/>
+		</div>
+	</div>
+	<!--视频显示区-->
+	<div>
+		<div class="movie">
+			<iframe id="mviframe" src="movie/index.html" width="100%" height="100%" frameborder="0" scrolling="no" seamless="seamless">
+			您的浏览器不支持iframe，请升级
+			</iframe>
+		</div>
+		<!--半屏滚动信息-->
+		<div class="color2 font6 halfscr">
+			<marquee id="marquee_half" height="100%" width="100%" direction="up" scrollamount="4" >&nbsp;&nbsp;&nbsp;&nbsp;<span id="marHalf_text" ></span>
+			</marquee>
+		</div>
+	</div>
+	<div class="fullMsg" id="fullMsg">
+		
+	</div>
+	<audio id="audio_scroll" src="" loop="loop"></audio>
+</body>
+</html>

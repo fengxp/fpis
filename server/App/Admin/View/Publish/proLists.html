@@ -1,0 +1,43 @@
+<include file="Public:header" />
+<include file="Public:nav" />
+<div class="table_list">
+<table width="100%">
+	<thead>
+		<tr height="30">
+			<td></td>
+			<td>节目单名称</td>
+			<td>操作</td>
+		</tr>
+	</thead>
+	<tbody>
+	<volist name="lists" id="val">
+		<tr height="30">
+			<td>&nbsp;&nbsp;<input type="radio" name="radio" value="{$val.id}"/></td>
+			<td>{$val.pro_name}</td>
+			<td>
+				<a href="{:U('Program/see',"id=$val[id]")}">查看</a>
+			</td>
+		</tr>
+	</volist>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="8" class="pages">{$pages}</td>
+		</tr>
+	</tfoot>
+</table>
+</div>
+<script>
+function check_radio(){
+		
+             var chkObjs = document.getElementsByName("radio");
+				for(var i=0;i<chkObjs.length;i++){
+					if(chkObjs[i].checked){
+						var intHot = chkObjs[i].value;
+						//alert(intHot);
+						parent.window.document.getElementById("program").value=intHot;
+						break;
+					}
+				}
+         }
+</script>

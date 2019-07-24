@@ -1,0 +1,40 @@
+﻿<include file='Public:header' />
+<include file='Public:nav' />
+<form action="" method="post">
+<div class="table_full">
+<table width='100%'>
+	<tr>
+		<th width="20%">绑定节点：</th>
+		<td width="80%">
+			<select name="pid">
+				<option value="0">作为一级节点</option>
+				<volist name="list" id="data">
+					<option value="{$data.id}" <if condition="$data[id] eq $val[pid]">selected</if>>{$data.title}</option>
+				</volist>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<th width="20%">节点名称（title）：</th>
+		<td width="80%"><input type="text" name="title" class="input" size="40" value="{$val.title}" /></td>
+	</tr>
+	<tr>
+		<th width="20%">节点方法（name）：</th>
+		<td width="80%"><input type="text" name="name" class="input" size="15" value="{$val.name}" /></td>
+	</tr>
+	
+	<tr>
+		<th width="20%">菜单中隐藏：</th>
+		<td width="80%"><input type="radio" name="status" class="input" size="40" value="0" <if condition="$val.status eq 0">checked</if> /> 隐藏 <input type="radio" name="status" class="input" size="40" value="1" <if condition="$val.status eq 1">checked</if> /> 显示</td>
+	</tr>
+</table>
+</div>
+<div class="btn_wrap">
+  <div class="btn_wrap_pd">
+    <input name="id" type="hidden" value="{$val.id}">
+    <button class="btn btn_submit mr10 " type="submit">提交</button>
+  </div>
+</div>
+</form>
+</body>
+</html>

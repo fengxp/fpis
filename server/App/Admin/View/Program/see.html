@@ -1,0 +1,35 @@
+<include file='Public:header' />
+<include file='Public:nav' />
+<!-- <form action="" method="post"> -->
+<div class="table_full">
+<table width='100%'>
+	<tr>
+		<th width="20%" >名称:</th>
+		<td width="80%" >{$val.pro_name}</td>
+		</td>
+	</tr>
+
+	<tr>
+		<th width="20%">提交时间：</th>
+		<td width="80%" >{$val.pro_time|date='Y-m-d H:i',###} </td>
+	</tr>
+	<tr>
+		<th  colspan="2">列表</th>
+		
+		<volist name="imgList" id="mp"  key="index">
+			<tr>
+				<td width="20%">{$index}</td>
+				<td width="80%"><a target="_self" href=" {:U('Media/see',array('id'=>$mp['id']))}">{$mp.file_name}</a></td>
+			</tr>
+			</volist>
+	</tr>
+	
+</table>
+
+</div>
+<div class="btn_wrap">
+  <div class="btn_wrap_pd">
+ 
+	<button type="button" class="btn btn-info" onclick="return window.history.go(-1)">返回</button>
+  </div>
+</div>

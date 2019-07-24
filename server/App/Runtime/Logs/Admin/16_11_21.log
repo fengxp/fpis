@@ -1,0 +1,10 @@
+[ 2016-11-21T17:57:50+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=b5fw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-21T17:58:11+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=t68s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+

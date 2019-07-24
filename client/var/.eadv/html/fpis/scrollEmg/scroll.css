@@ -1,0 +1,29 @@
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background: #808080 url('../img/scroll.png') no-repeat;
+    width: 1080px;
+    height: 1920px;
+    font-family: "atsfont";
+	}
+	
+	.pm { left: 25px; top: 15px; }
+	.pm_num {left:25px; top:45px;width:300px;}
+	.pm_level {left:150px; top:15px;width:300px;}
+	.weather{left: 320px; top: 45px;width:80px;height:80px;background:url('../img/weather/b0.png')no-repeat;}
+	.weather_num{left: 370px; top: 45px;width:300px}
+	.datetime-date {
+		left: 750px;
+		top: 145px;
+	}
+
+	.datetime-week {
+		left: 800px;
+		width: 200px;
+		top: 80px;
+	}
+
+	.datetime-time {
+		left: 775px;
+		top: 15px;
+	}

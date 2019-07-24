@@ -1,0 +1,12 @@
+#!/bin/sh
+/usr/bin/chromium-browser --user-data-dir="/root/.config/chromium" --window-size=0,0 --kiosk & 
+sleep 3 
+while true
+do
+date >> /root/chromStart.log
+/usr/bin/killall chromium-browser
+/usr/bin/chromium-browser --user-data-dir="/root/.config/chromium" --allow-file-access-from-files --kiosk --window-size=1080,1920 --disable-prompt-on-repost --disable-plugins --disable-custom-jumplist --disable-dev-tools --disable-hang-monitor --disable-logging --disable-metrics --disable-new-tab-first-run  file:///var/.eadv/html/fpis/index.html 2>&1 
+sleep 1
+echo "whill reboot chromium..." >>/root/chromStart.log
+#/sbin/reboot >>/root/chromStart.log
+done

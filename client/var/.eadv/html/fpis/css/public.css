@@ -1,0 +1,45 @@
+::-webkit-scrollbar{width:0px}
+
+@font-face {
+    font-family: "atsfont";
+    src: url('fzdhtjw.eot'); /* IE9+ */
+    src: url('fzdhtjw.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../js/fzdhtjw.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+div {
+    position: absolute;
+}
+.color1 {
+    color: #FE9640;
+}
+
+.color2 {
+    color: #fff;
+}
+.font1 {
+    font-size: 26px;
+}
+.font2 {
+    font-size: 28px;
+}
+.font3 {
+    font-size: 36px;
+}
+.font4 {
+    font-size: 48px;
+}
+.font5 {
+    font-size: 80px;
+	line-height:96px;
+}
+.font6 {
+    font-size: 100px;
+	line-height:116px;
+	font-family:"SimHei";
+}
+.font7 {
+    font-size: 150px;
+	line-height:166px;
+	font-family:"SimHei";
+}

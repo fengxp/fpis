@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+#tab { overflow:hidden; width:400px; height:250px; position:relative; float:left;}
+#tab>img:not(:first-child){ display:none; }
+
+</style>
+<script>
+	window.onload = function(){
+	
+		var images = document.getElementsByTagName('img');
+		var pos = 0;
+		var len = images.length;
+		
+		setInterval(function(){
+		
+			images[pos].style.display = 'none';
+			pos = ++pos == len ? 0 : pos;
+			images[pos].style.display = 'inline';
+		
+		},5000);
+		
+	};
+</script>
+
+</head>
+
+<body>
+<div id="tab">
+	<img src="../img/4_1.png" width="400" height="250"/>
+	<img src="../img/4_2.png" width="400" height="250"/>
+	<img src="../img/4_3.png" width="400" height="250"/>
+	<img src="../img/4_4.png" width="400" height="250"/>
+	<img src="../img/4_5.png" width="400" height="250"/>
+	<img src="../img/4_6.png" width="400" height="250"/>
+	<img src="../img/4_7.png" width="400" height="250"/>
+	<img src="../img/4_8.png" width="400" height="250"/>
+	<img src="../img/4_9.png" width="400" height="250"/>
+	
+</div>
+</body>
+</html>

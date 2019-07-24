@@ -1,0 +1,29 @@
+[ 2016-06-16T14:36:43+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Login/check_code.html?code=6gw4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-16T14:37:11+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-16T16:55:49+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Device/lists
+ERR: 无法加载控制器:Device
+
+[ 2016-06-16T16:56:48+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Device/lists
+ERR: 无法加载控制器:Device
+
+[ 2016-06-16T16:57:16+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Device/lists
+ERR: 模板不存在:./App/Admin/View/Device/lists.html
+
+[ 2016-06-16T17:00:22+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Device/__DTREE/dtree.js
+ERR: 非法操作:__DTREE
+
+[ 2016-06-16T17:00:40+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Device/__DTREE/dtree.js
+ERR: 非法操作:__DTREE
+
+[ 2016-06-16T17:13:03+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Device/example01.html
+ERR: 非法操作:example01
+
+[ 2016-06-16T17:27:50+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Device/example01.html
+ERR: 非法操作:example01
+

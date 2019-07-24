@@ -1,0 +1,44 @@
+<include file="Public:header" />
+<include file="Public:nav" />
+<div class="nav">
+	<div class="left">已发布信息</div>
+	<div class="right"><a href="{:U('add')}" class="btn btn_submit mr10">发布</a>&nbsp;&nbsp;</div>
+</div>
+<div class="table_list">
+<table width="100%">
+	<thead>
+		<tr height="30">
+			<td><label class="checkbox"><input type="checkbox" id="SelectAll"  value="全选" onclick="selectAll();"/></label></td>
+			<td>标题</td>
+			<td>类别</td>
+			<td>状态</td>
+			<td>长度</td>
+			<td>发布时间</td>
+			<td>撤销时间</td>
+			<td>操作</td>
+		</tr>
+	</thead>
+	<tbody>
+	<volist name="lists" id="val">
+		<tr height="30">
+			<td><input type="checkbox" name="id" value="{$val.id}"/></td>
+			<td>{$val.title}</td>
+			<td>{$val.type|getInfoType}</td>
+			<td>{$val.status|getAuditStatus}</td>
+			<td>{$val.length}</td>
+			<td>{$val.sub_time|date='Y-m-d H:i',###}</td>
+			<td>{$val.update|getUpdateTime}</td>
+			<td>
+				<a href="{:U('see',"id=$val[id]")}">查看</a> | <a href="{:U('cancle',"id=$val[id]")}">撤销</a>|
+				<a href="javascript:" onclick="return mydelete('{:U('delete',"id=$val[id]")}');">删除</a>
+			</td>
+		</tr>
+	</volist>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="8" class="pages">{$pages}</td>
+		</tr>
+	</tfoot>
+</table>
+</div>

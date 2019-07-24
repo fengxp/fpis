@@ -1,0 +1,51 @@
+﻿<include file='Public:header' />
+<include file='Public:nav' />
+<form action="" method="post">
+<div class="table_full">
+<table width='100%'>
+	<tr>
+		<th width="20%">角色名称：</th>
+		<td width="80%"><input type="text" name="role_name" class="input" size="40" value="" /></td>
+	</tr>
+
+	<tr>
+		<th width="20%">角色权限：</th>
+		<td width="80%"> 请选择：</td>
+	</tr>
+	<volist name="list" id="data">
+	<tr>
+		<th width="20%"><input type="checkbox" name="p[{$data.id}]" value="{$data.id}" > {$data.title}</th>
+		<td width="80%" id="e{$data.id}">
+		<volist name="data['child']" id="v">
+			<input type="checkbox" name="group[{$v.id}]" value="{$v.id}" /> {$v.title}&nbsp;&nbsp;&nbsp;&nbsp;
+		</volist>
+		</td>
+	</tr>
+    <script language="javascript">
+        $("input[name='p[{$data.id}]']").click(function(){
+            if($(this).prop("checked") == true){
+                $("#e{$data.id} > input").each(function(){
+                    //$(this).attr("checked", true);
+					this.checked=true;
+                });
+            }else{
+                $("#e{$data.id} > input").each(function(){
+                    //$(this).attr("checked", false);
+					this.checked=false;
+                });
+            }
+        });
+    </script>
+	</volist>
+</table>
+</div>
+<div class="btn_wrap">
+  <div class="btn_wrap_pd">
+    <input name="role_id" type="hidden" value="0">
+    <button class="btn btn_submit mr10 " type="submit">提交</button>
+	<a href="#" class="button" onclick="window.history.go(-1)">返回</a>
+  </div>
+</div>
+</form>
+</body>
+</html>

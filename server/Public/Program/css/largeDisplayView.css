@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+.div-width {
+	width: 800px;
+}
+.div-left
+{
+	 float: left;
+	 width: 49%;
+	 margin: 5px;
+	 
+}

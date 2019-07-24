@@ -1,0 +1,109 @@
+[ 2015-11-08T15:08:58+08:00 ] 192.168.2.199 /opis_server/Login/check_code.html?code=jj6u
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+
+[ 2015-11-08T15:09:09+08:00 ] 192.168.2.199 /opis_server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0008s ]
+
+[ 2015-11-08T15:10:33+08:00 ] 192.168.2.199 /opis_server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0002s ]
+
+[ 2015-11-08T15:12:18+08:00 ] 192.168.2.199 /opis_server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0002s ]
+
+[ 2015-11-08T15:14:51+08:00 ] 192.168.2.199 /opis_server/Login/check_code.html?code=3m6z
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+NOTIC: [2] session_start(): open(/tmp/sess_nq29sro3bhuttnn03i18eev6q5, O_RDWR) failed: Permission denied (13) /var/www/html/opis_server/Core/Common/functions.php 第 1263 行.
+
+[ 2015-11-08T15:15:34+08:00 ] 192.168.2.199 /opis_server/Login/check_code.html?code=dd3a
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+
+[ 2015-11-08T15:15:43+08:00 ] 192.168.2.199 /opis_server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0011s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0002s ]
+
+[ 2015-11-08T15:15:47+08:00 ] 192.168.2.199 /opis_server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0002s ]
+
+[ 2015-11-08T15:53:17+08:00 ] 192.168.2.199 /opis_server/Index/index.html
+ERR: 1146:Table 'opis.op_auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `op_auth_group_access`
+
+[ 2015-11-08T15:53:28+08:00 ] 192.168.2.199 /opis_server/Index/index.html
+ERR: 1146:Table 'opis.op_auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `op_auth_group_access`
+
+[ 2015-11-08T16:00:45+08:00 ] 192.168.2.199 /opis_server/Index/logout.html
+ERR: 模板不存在:./App/Admin/View/Public/dispatch_jump.html
+
+[ 2015-11-08T16:02:12+08:00 ] 192.168.2.199 /opis_server/Login/check_code.html?code=tpnb
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+
+[ 2015-11-08T16:02:21+08:00 ] 192.168.2.199 /opis_server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0007s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0002s ]
+
+[ 2015-11-08T16:02:25+08:00 ] 192.168.2.199 /opis_server/Order/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0007s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0002s ]
+

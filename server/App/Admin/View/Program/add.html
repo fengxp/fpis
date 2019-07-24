@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<link rel="stylesheet" href="__PROCSS__/bootstrap.min.css" >
+<link rel="stylesheet" href="__PROCSS__/largeDisplay.css">
+<link rel="stylesheet" href="__PROCSS__/jquery-ui.min.css">
+
+<script src="__PROJS__/jquery.min.js"></script>
+<script src="__PROJS__/bootstrap.min.js"></script>
+<script src="__PROJS__/largeDisplay.js"></script>
+<script src="__PROJS__/jquery-ui.min.js"></script>
+</head>
+<body>
+<include file='Public:nav' />
+<p>
+<form action="{:U('publishSave')}" method="post">
+	<div class="content-top div-width">
+		<table class="div-width layout-table">
+			<tr>
+				<td class="">名称:
+				<input type="text" class="form-control" id="txtName"
+					name="txtName" value="{$txtName}" maxlength="100">
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2">
+					<table>
+						<tr>
+							<td> <span>选择素材列表</span>
+								<div class="content-left div-height">
+									<iframe id="ifrimglist" class="iframe-imglist"
+										src="{:U('imgList')}"></iframe>
+								</div></td>
+							<td>
+								<div class="div-cmdbutton text-center">
+									<button type="button"
+										class="btn btn-info glyphicon glyphicon-ok"
+										onclick="selectAll()">&nbsp;全选</button>
+									<button type="button"
+										class="btn btn-info glyphicon glyphicon-remove"
+										onclick="clearAll()">&nbsp;取消</button>
+									<button type="button"
+										class="btn btn-info glyphicon glyphicon-plus"
+										onclick="addItem()">&nbsp;加入</button>
+									<button type="button"
+										class="btn btn-info  glyphicon glyphicon-minus"
+										onclick="removeItem()">&nbsp;删除</button>
+									<button type="button"
+										class="btn btn-info   glyphicon glyphicon-refresh"
+										onclick="clearTr()">&nbsp;清空</button>
+									<button type="button"
+										class="btn btn-info  glyphicon glyphicon-arrow-up"
+										onclick="moveUP()">&nbsp;上移</button>
+									<button type="button"
+										class="btn btn-info   glyphicon glyphicon-arrow-down"
+										onclick="moveDown()">&nbsp;下移</button>
+									<button type="submit" class="btn btn_submit"
+				onclick="return submitCheck();">&nbsp;&nbsp;&nbsp;&nbsp;发布&nbsp;&nbsp;&nbsp;&nbsp;</button>
+								</div>
+							</td>
+							<td> <span>编排素材列表</span>
+								<div class="content-right div-height">
+									<table id="tabImgList" class="table table-hover">
+									</table>
+								</div></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<input type="hidden" name="ids" id="ids" />
+		<input type="hidden" name="ids2" id="ids2" />
+</form>
+</block>

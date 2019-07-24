@@ -1,0 +1,49 @@
+[ 2016-07-12T13:18:08+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=7mke
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T13:22:58+08:00 ] 127.0.0.1 /lms/server/Log/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+ERR: 非法操作:getDevice
+
+[ 2016-07-12T13:23:42+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+
+[ 2016-07-12T13:23:45+08:00 ] 127.0.0.1 /lms/server/Log/deviceInfo/id/17/type/0
+ERR: 非法操作:deviceInfo
+
+[ 2016-07-12T13:23:48+08:00 ] 127.0.0.1 /lms/server/Log/deviceInfo/id/18/type/0
+ERR: 非法操作:deviceInfo
+
+[ 2016-07-12T13:23:49+08:00 ] 127.0.0.1 /lms/server/Log/deviceInfo/id/15/type/1
+ERR: 非法操作:deviceInfo
+
+[ 2016-07-12T13:23:50+08:00 ] 127.0.0.1 /lms/server/Log/deviceInfo/id/16/type/1
+ERR: 非法操作:deviceInfo
+
+[ 2016-07-12T13:26:15+08:00 ] 127.0.0.1 /lms/server/Device/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0010s ]
+

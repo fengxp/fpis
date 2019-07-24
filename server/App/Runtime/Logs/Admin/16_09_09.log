@@ -1,0 +1,31 @@
+[ 2016-09-09T15:53:37+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=twbq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T15:53:37+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=twbq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T15:53:39+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=twbq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T15:53:46+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=pwih
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+
+[ 2016-09-09T15:54:00+08:00 ] 127.0.0.1 /lms/server/Info/getDevice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `op_admin_group_access` [ RunTime:0.0205s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM op_admin_group_access a INNER JOIN op_admin_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_admin_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `op_admin_rule` WHERE `id` IN ('85','86','87') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `op_device` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `op_device`  [ RunTime:0.0005s ]
+

@@ -1,0 +1,39 @@
+<include file="Public:header" />
+<include file="Public:nav" />
+<div class="nav">
+	<div class="left">已发布节目</div>
+	<div class="right"><a href="{:U('program')}" class="btn btn_submit mr10">发布</a>&nbsp;&nbsp;</div>
+</div>
+<div class="table_list">
+<table width="100%">
+	<thead>
+		<tr height="30">
+			<td><label class="checkbox"><input type="checkbox" id="SelectAll"  value="全选" onclick="selectAll();"/></label></td>
+			
+			<td>节目单名称</td>
+			<td>审核状态</td>
+			<td>发布时间</td>
+			<td>操作</td>
+		</tr>
+	</thead>
+	<tbody>
+	<volist name="lists" id="val">
+		<tr height="30">
+			<td><input type="checkbox" name="id" value="{$val.pid}"/></td>
+			<td>{$val.pro_name}</td>
+			<td>{$val.status|getAuditStatus}</td>
+			<td>{$val.sub_time|date='Y-m-d H:i',###}</td>
+			<td>
+				<a href="{:U('see',"id=$val[pid]")}">查看</a> | 
+				<a href="javascript:" onclick="return mydelete('{:U('delete',"id=$val[pid]")}');">删除</a>
+			</td>
+		</tr>
+	</volist>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="8" class="pages">{$pages}</td>
+		</tr>
+	</tfoot>
+</table>
+</div>

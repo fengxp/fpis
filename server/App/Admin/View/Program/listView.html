@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<link rel="stylesheet" href="__PROCSS__/bootstrap.min.css" >
+<link rel="stylesheet" href="__PROCSS__/largeDisplay.css">
+<link rel="stylesheet" href="__PROCSS__/jquery-ui.min.css">
+
+<script src="__PROJS__/jquery.min.js"></script>
+<script src="__PROJS__/bootstrap.min.js"></script>
+<script src="__PROJS__/largeDisplay.js"></script>
+<script src="__PROJS__/jquery-ui.min.js"></script>
+</head>
+<body>
+<include file='Public:nav' />
+<block name="work-space-title">
+<h4 class="panel-title display-inline">发布名称: {$ldName}</h4>
+<h4 class="panel-title display-inline">播放日期: {$date_start}~{$date_end}</h4>
+<h4 class="panel-title display-inline">间隔时间: {$interval}秒</h4>
+<h4 class="panel-title display-inline">发布时间: {$submit_time}</h4>
+
+
+<block name="work-space-body">
+<div class="table-responsive">
+	<table
+		class="table table-striped table-bordered table-hover text-center">
+		<thead>
+			<tr>
+				<th class="text-center">序号</th>
+				<th class="text-center">文件名</th>
+				<th class="text-center">图片</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="imgList" id="mp"  key="index">
+			<tr>
+				<td>{$index}</td>
+				<td>{$mp.item_name}</td>
+				<td><a target="_blank" href="{$mp.img}"><img src="{$mp.img}" height="100" width="100"/></a></td>
+			</tr>
+			</volist>
+		</tbody>
+	</table>
+</div>
+<!--table end--> </block>

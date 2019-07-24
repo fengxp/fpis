@@ -1,0 +1,26 @@
+<link href="__PROCSS__/bootstrap.min.css" rel="stylesheet">
+<script src="__PROJS__/jquery.min.js"></script>
+<script src="__PROJS__/largeDisplay_imgList.js"></script>
+<table class="table table-hover text-center">
+	<tbody>
+		<volist name="mpList" id="mp">
+		<tr>
+			<td><input type="checkbox" class="imgid" value="{$mp.id}"
+				data-name="{$mp.file_name}"
+				data-src="" 
+				data-url=""
+				/>
+			</td>
+			<td>{$mp.file_name}</td>
+			<td>
+				<a target="_blank" href="__FILEUP__/{$mp.temp_name}">查看</a>
+			</td>
+		</tr>
+		</volist>
+		<tr>
+			<td colspan="3">
+				<div class="page">{$page}</div>
+			</td>
+		</tr>
+	</tbody>
+</table>

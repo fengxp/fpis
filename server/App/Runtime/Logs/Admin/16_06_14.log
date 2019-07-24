@@ -1,0 +1,32 @@
+[ 2016-06-14T14:34:37+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Login/check_code.html?code=dhyw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T14:34:59+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-14T15:10:13+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/imgList.html
+ERR: 1146:La table 'opis.op_media_program_view' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `op_media_program_view`
+
+[ 2016-06-14T15:22:24+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/imgList.html
+ERR: 1146:La table 'opis.op_media_program_view' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `op_media_program_view`
+
+[ 2016-06-14T15:22:29+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/imgList.html
+ERR: 1146:La table 'opis.op_media_program_view' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `op_media_program_view`
+
+[ 2016-06-14T15:27:02+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/146535705630034.mp4
+ERR: 非法操作:146535705630034.mp4
+
+[ 2016-06-14T15:28:40+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-14T15:28:46+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/146535705630034.mp4
+ERR: 非法操作:146535705630034.mp4
+
+[ 2016-06-14T15:48:58+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/publishSave.html
+ERR: 非法操作:publishSave
+

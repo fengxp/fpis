@@ -1,0 +1,5 @@
+[ 2016-08-03T10:35:23+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=xphn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

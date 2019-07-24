@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport">
+	<style type="text/css">
+	::-webkit-scrollbar{width:0px}
+	body {
+		margin: 0px 0px;
+		padding: 0px 0px;
+		background: #808080 url('../img/fullEMG.png') no-repeat;
+		width: 1080px;
+		height: 1920px;
+		overflow:hidden;
+	}
+
+	div {
+		position: absolute;
+	}
+	.color1 {
+		color: #FE9640;
+	}
+
+	.color2 {
+		color: #fff;
+	}
+	.fullscr {
+		width: 1080px;
+		height:1100px;
+		top: 800px;
+	}
+	.font7 {
+		font-size: 150px;
+		line-height:166px;
+		font-family:"SimHei";
+	}
+	 </style>
+    <title></title>
+</head>
+<body>
+	<!--全屏滚动信息-->
+	<div class="color2 font7 fullscr">
+	<marquee id="marquee_fullscr" hspace="10" height="100%" direction="up" scrollamount="4" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;<span id="full_text">因4号线信号故障，导致列车大面积晚点，本站临时采取封口封站措施，请乘客采用其它出行方式，带来不便敬请谅解！</span>
+	</marquee>
+		
+	</div>
+</body>
+</html>
+<script> 
+	
+	window.onload=function(){
+		document.getElementById('marquee_fullscr').start();
+		document.onkeyup = keyUp;
+	}
+	  
+	//获取键盘事件
+function keyUp(e) {   
+       var currKey=0,e=e||event;   
+       currKey=e.keyCode||e.which||e.charCode;   
+       //var keyName = String.fromCharCode(currKey);   
+       //alert("按键码: " + currKey + " 字符: " + keyName); 
+	   switch(currKey)
+	   {
+			case 27:
+				//alert('esc');
+				close_full();
+				break;
+			default:
+				break;
+	   }
+   } 
+  function close_full(){
+	
+	//var audio=window.opener.document.getElementById("audio_scroll");
+	var audio=window.parent.document.getElementById("audio_scroll");
+	audio.src="";
+	//var movie=window.opener.document.getElementById("mviframe").contentWindow;
+	var movie=window.parent.document.getElementById("mviframe").contentWindow;
+	movie.document.getElementById("video").play();
+	window.close();
+  }
+</script>

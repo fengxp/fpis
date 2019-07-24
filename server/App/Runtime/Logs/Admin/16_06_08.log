@@ -1,0 +1,266 @@
+[ 2016-06-08T11:20:57+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Login/check_code.html?code=48m2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-08T11:24:06+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-08T11:24:10+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-08T11:29:41+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/lists
+ERR: 无法加载控制器:Program
+
+[ 2016-06-08T11:29:43+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/add
+ERR: 无法加载控制器:Program
+
+[ 2016-06-08T11:31:56+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/lists
+ERR: 无法加载控制器:Program
+
+[ 2016-06-08T11:32:02+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/lists
+ERR: 无法加载控制器:Program
+
+[ 2016-06-08T11:34:58+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Login/check_code.html?code=w3xq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-08T11:35:00+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Login/check_code.html?code=w3xa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-08T11:35:05+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/lists
+ERR: 无法加载控制器:Program
+
+[ 2016-06-08T11:35:06+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/add
+ERR: 无法加载控制器:Program
+
+[ 2016-06-08T11:35:08+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/lists
+ERR: 无法加载控制器:Program
+
+[ 2016-06-08T11:36:40+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/add
+ERR: 模板不存在:./App/Admin/View/Program/add.html
+
+[ 2016-06-08T11:37:29+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-08T11:37:32+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+
+[ 2016-06-08T15:14:08+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery-ui.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:14:08+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/jquery-ui.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:14:08+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/largeDisplay.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:14:08+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay.linux.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:14:08+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/imgList.html
+ERR: 非法操作:imgList
+
+[ 2016-06-08T15:14:08+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Program/imgList.html
+ERR: 非法操作:imgList
+
+[ 2016-06-08T15:31:34+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/jquery-ui.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:31:34+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery-ui.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:31:34+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/largeDisplay.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:31:35+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:31:35+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:31:35+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:31:37+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/jquery-ui.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:31:37+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/largeDisplay.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:31:37+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery-ui.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:31:37+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:31:37+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:31:37+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:31:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/largeDisplay.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:31:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/jquery-ui.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:31:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery-ui.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:31:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:31:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:31:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:34:13+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:34:13+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:34:13+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:34:30+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:34:30+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:34:30+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:34:33+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:39:27+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T15:39:27+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:39:27+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:39:27+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:39:41+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T15:39:42+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:39:42+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:39:42+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:39:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T15:39:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:39:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:39:45+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:40:31+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:40:31+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:40:31+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:40:39+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:40:39+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-06-08T15:40:39+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/js/largeDisplay_imgList.js
+ERR: 非法操作:js
+
+[ 2016-06-08T15:51:53+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Login/check_code.html?code=nfmg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-08T16:20:04+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Program/fonts/glyphicons-halflings-regular.woff
+ERR: 非法操作:Program
+
+[ 2016-06-08T16:20:04+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:20:04+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Program/fonts/glyphicons-halflings-regular.ttf
+ERR: 非法操作:Program
+
+[ 2016-06-08T16:21:58+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:22:07+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:22:53+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:23:12+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:23:18+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:12+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:13+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:13+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:13+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:14+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:14+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:16+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:16+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:16+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:16+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:28+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:25:29+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Public/Admin/js/largeDisplay_imgList.js
+ERR: 非法操作:Admin
+
+[ 2016-06-08T16:29:52+08:00 ] 127.0.0.1 /interactive/OPIS_SERVER/Media/
+ERR: 非法操作:index
+

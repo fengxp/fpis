@@ -1,0 +1,45 @@
+<include file="Public:header" />
+<include file="Public:nav" />
+<div class="nav">
+	<div class="left">发布信息日志</div>
+</div>
+<div class="table_list">
+<table width="100%">
+	<thead>
+		<tr height="30">
+			<td><label class="checkbox"><input type="checkbox" id="SelectAll"  value="全选" onclick="selectAll();"/></label></td>
+			<td>标题</td>
+			<td>类别</td>
+			<td>状态</td>
+			<td>长度</td>
+			<td>发布</td>
+			<td>撤销</td>
+			<td>删除</td>
+			<td>操作</td>
+		</tr>
+	</thead>
+	<tbody>
+	<volist name="lists" id="val">
+		<tr height="30">
+			<td><input type="checkbox" name="id" value="{$val.id}"/></td>
+			<td>{$val.title}</td>
+			<td>{$val.type|getInfoType}</td>
+			<td>{$val.status|getAuditStatus}</td>
+			<td>{$val.length}</td>
+			<td>{$val.sub_time|date='Y-m-d H:i',###}</td>
+			<td>{$val.update|getUpdateTime}</td>
+			<td>{$val.del|getUpdateTime}</td>
+			<td>
+				<a href="{:U('Info/see',"id=$val[id]")}">查看</a> |
+				<a href="javascript:" onclick="return mydelete('{:U('Info/delete_true',"id=$val[id]")}');">彻底删除</a>
+			</td>
+		</tr>
+	</volist>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="8" class="pages">{$pages}</td>
+		</tr>
+	</tfoot>
+</table>
+</div>

@@ -1,0 +1,49 @@
+<include file="Public:header" />
+<include file="Public:nav" />
+<link rel="StyleSheet" href="__DTREE__/dtree.css" type="text/css" />
+<script type="text/javascript" src="__DTREE__/dtree.js"></script>
+<div class="table_full">
+<table width='100%' height="800px">
+	<tr>
+		<td width="20%" >
+			<p><a href="javascript: d.openAll();">展开</a> | <a href="javascript: d.closeAll();">合并</a>
+			</p>
+			<br>
+			<div id="myTree"></div>
+		</td>
+		<td width="80%">
+			<iframe id="right" name="right" frameborder="0" scrolling="no" width="800px" height="400px"></iframe>
+		</td>
+		</td>
+	</tr>
+</table>
+	
+    <script type="text/javascript">
+    $(function(){ 
+		 
+		 creatDtree();
+		 d.openAll();
+     });
+	var dtroot="__DTREE__";
+	d = new dTree('d');
+	function creatDtree(){	
+        $.ajax({  
+                url : "{:U('Device/getDevice')}",  
+                async : false,//同步，等这个请求完成后才继续往下执行,这样myTree才能使用返回来的数据  
+                dataType: "json",  
+                success: function(myData) { 
+                    for ( var i = 0; i < myData.length; i++) {  
+                        var obj = myData[i];
+                        //right是window.parent的一个frame的name  
+                        d.add(obj.id, obj.p_id, obj.name,"deviceInfo/id/"+obj.id+"/type/"+obj.type,obj.name,"right"); 
+						
+                    }
+					document.getElementById('myTree').innerHTML=d;
+                }  
+          }); 
+		  d.config.target = "right";//right是window.parent的一个frame的name
+          d.config.useCookies = false;
+          d.config.inOrder = true;
+	}
+    </script> 
+	

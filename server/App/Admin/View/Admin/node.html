@@ -1,0 +1,38 @@
+<include file="Public:header" />
+<include file="Public:nav" />
+
+<div class="table_list">
+<table width="100%">
+	<thead>
+		<tr height="30">
+			<td><label class="checkbox"> <input type="checkbox" name="" />ID</label></td>
+			<td>名称</td>
+			<td>模块方法</td>
+			<td>类型</td>
+			<td>状态</td>
+<!-- 			<td>创建时间</td> -->
+			<td>操作</td>
+		</tr>
+	</thead>
+	<tbody>
+	<volist name="list" id="val">
+		<tr height="30">
+			<td><input type="checkbox" />{$val.id}</td>
+			<td>{$val.title}</td>
+			<td>{$val.name}</td>
+			<td>{$val.pid}</td>
+			<td>{$val.status}</td>
+<!-- 			<td>{$val.create_time|date='Y-m-d H:i',###}</td> -->
+			<td><if condition="$child_close eq '0'"><a href="{:U('node',"id=$val[id]")}">子节点 |</a></if> <a href="{:U('node_edit',"id=$val[id]")}">编辑</a> | 
+			<a href="javascript:" onclick="return mydelete('{:U('node_delete',"id=$val[id]")}');">删除</a>
+			</td>
+		</tr>
+	</volist>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="8" class="pages">{$pages}</td>
+		</tr>
+	</tfoot>
+</table>
+</div>

@@ -1,0 +1,8 @@
+[ 2016-08-04T13:36:58+08:00 ] 127.0.0.1 /lms/server/Login/check_code.html?code=7f4p
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-04T13:53:47+08:00 ] 127.0.0.1 /lms/server/Media/
+ERR: 非法操作:index
+
